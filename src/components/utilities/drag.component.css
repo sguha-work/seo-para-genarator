@@ -1,0 +1,13 @@
+.iframe-textarea {
+    margin-top: 9%;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    resize: both;
+    overflow: auto;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    background-color: #fff;
+    box-sizing: border-box;
+}
