@@ -54,7 +54,7 @@ export default function Drag() {
 
     try {
       Subject_ShowModal$.next(true);
-      const response = await fetch("http://localhost:3010/seo-paragraph-generator/api/seo-summary", {
+      const response = await fetch(SERVER_URL+"/seo-paragraph-generator/api/seo-summary", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
