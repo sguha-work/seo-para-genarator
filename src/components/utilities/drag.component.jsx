@@ -267,7 +267,7 @@ export default function Drag() {
             </div>
             <button
               type="submit"
-              className="inline-flex items-center justify-center py-3 px-7 rounded-full text-base font-medium text-white bg-theme-dark shadow-md transition-all duration-200 hover:bg-blue-700 mt-6"
+              className=" submit-button inline-flex items-center justify-center py-3 px-7 rounded-full text-base font-medium text-white bg-theme-dark shadow-md transition-all duration-200 hover:bg-blue-900 mt-6"
             >
               Generate SEO Content
             </button>
