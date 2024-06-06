@@ -7,7 +7,7 @@ import dotenv from 'dotenv';
 dotenv.config();
 
 const app = express();
-const port = 3010;
+const port = process.env.PORT;
 
 // Middleware
 app.use(bodyParser.json());
